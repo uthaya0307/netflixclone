@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bac\ .png);
+    background-size: cover;
+    background-position: center;
+    padding:  10px 8%;
+
+}
+.logo{
+    height: 90px;
+    width: 170px;
+    cursor: pointer;
+}
+.box{
+    color: white;
+    width: 450px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top:40px ;
+    margin-top: 30px;
+    background-image: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7))
+    
+}
+.box input{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    border: 1px solid rgb(143, 139, 139);
+    color: white;
+    border-radius: 10px;
+}
+.box button{
+    width: 100%;
+    padding: 8px;
+    font-size: large;
+     background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#bu{
+    background-color: transparent;
+   font-size: 15px;
+    background-image: linear-gradient( rgba(134, 130, 130, 0.5),rgba(134,130,130,0.5));
+}
+.box a{
+     text-decoration: none;
+     color: white;
+}
+.box a:hover{
+    border-bottom: 2px solid;
+    color: rgb(188, 185, 180);
+}
+#bu:hover{
+    background-image: linear-gradient( rgba(134, 130, 130, 0.5),rgba(134,130,130,0.5));  
+    opacity: 0.80; 
+}
+.box button:hover{
+    opacity: 0.80;
+}
+.rem{
+    display: flex;
+    margin-right: 200px;
+    margin-top: 20px;
+
+}
+.rem input{
+    height: 15px;
+    margin-top: 3px;
+}
+.rem label{
+    font-size: large;
+}
+.box p{
+    color: rgb(167, 163, 158);
+}
+.box h5{
+    color: rgb(153, 155, 155);
+}
+.foot footer{
+  padding-top: 200px;
+}
+.foot a{
+    color: rgb(167, 163, 158);
+}

@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background: #000;
+   color: #fff;
+}
+.top{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bac\ .png);
+    background-size: cover;
+    background-position: center;
+    padding:  10px 8%;
+}
+
+.logo{
+    height: 90px;
+    width: 170px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.languvage-btn{
+    display: inline;
+    align-items: center;
+    background: transparent;
+    padding: 7px 10px;
+    border: 1px solid white;
+    width: 100px;
+
+}
+.h-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+
+}
+
+  
+.sl{
+    position: relative;
+    top: 0;
+    background-color: black;
+  
+    margin-left: 10%;
+ 
+   
+   }
+  .li{
+   margin-top: 100px;
+   display: flex;
+   gap: 60px;
+  
+ 
+  }
+  .oc{
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border: 2px solid rgb(190, 190, 190);
+   border-radius: 5px;
+ }
+ 
+ 
+.dropdown__container {
+    border: 1px solid rgb(173, 173, 173);
+    padding: 0.4rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+.h-content h1{
+    font-size: 60px;
+    margin-left: 13%;
+    font-weight: bolder;
+    line-height: 70px;
+    max-width: 650px;
+
+}
+.h-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email{
+     
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+    gap: 10px;
+    margin-left: 50px;
+    
+}
+.email input{
+    flex: 1;
+    border: 2px solid rgb(102, 101, 100);
+    outline: 0;
+    margin-left: 20px;
+    padding: 17px;
+    border-radius: 8px;
+    background: transparent;
+    width: 320px;
+    color: white;
+
+}
+.email button{
+     background: red;
+     border: 0;
+     outline: 0;
+     color: white;
+     font-size: 25px;
+     cursor: pointer;
+     padding: 12px;
+     border-radius: 8px;
+     
+}
+.cards{
+    background-color: black;
+    color: white;
+   
+}
+
+.cards h3{
+    padding-top: 40px;
+    margin-left: 150px;
+}
+.slide{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;   
+}
+
+.according{
+    padding-top: 20px;
+    background-color: #000;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+.log{
+    background-color: #000;
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+      
+}
+.log input{
+    flex: 1;
+    border: 2px solid rgb(102, 101, 100);
+    outline: 0;
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    background: transparent;
+    width: 550px;
+    color: white;
+}
+
+.log button{
+    background: red;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 2px;
+    
+    
+}
+footer a{
+    color: rgb(152, 149, 149);
+}
+footer{
+    padding-top: 50px;
+}
+#links{
+    line-height: 35px;
+}
+#cards img{
+   border-radius: 20px;
+}
+#cards img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+
+
